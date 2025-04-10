@@ -49,9 +49,6 @@ public class Operadores {
         System.out.println("// operador relacional para Strings");
         String nomeUm = "Mateus";
         String nomeDois ="Mateus";
-        System.out.println(nomeUm==nomeDois); // Não adequado comparar duas Strings com == ou !=
-        nomeDois=new String ("Mateus");
-        System.out.println(nomeUm==nomeDois); // Não adequado comparar duas Strings com == ou !=
         System.out.println(nomeUm.equals(nomeDois)); // Utilizando método "equals" para comparar conteúdo de Strings de forma adequada
 
         // Comparando booleanos
