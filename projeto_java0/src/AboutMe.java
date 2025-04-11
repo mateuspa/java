@@ -13,13 +13,13 @@ public class AboutMe{
             */
 
             // Usando classe Scanner para ler entrada do console com padrão de separação sendo <tecla espaço>
-            System.out.println("Digite seu nome: ");
+            System.out.print("\nDigite seu nome: ");
             String nome = scanner.next();
-            System.out.println("Digite seu sobrenome: ");
+            System.out.print("Digite seu sobrenome: ");
             String sobrenome = scanner.next();
-            System.out.println("Digite sua idade: ");
+            System.out.print("Digite sua idade: ");
             int idade = scanner.nextInt();
-            System.out.println("Digite sua altura em metros: ");
+            System.out.print("Digite sua altura em metros: ");
             double altura = scanner.nextDouble();
 
             scanner.close();
