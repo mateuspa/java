@@ -10,9 +10,9 @@ public class While {
             if(valorDoce > mesada)
                 break;
 
-            System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
+            System.out.printf("Doce do valor: %.2f Adicionado no carrinho \n", valorDoce); // formatando com 2 casas decimais
             mesada = mesada - valorDoce;
         }
-        System.out.println("O último doce que Mateus queria custa mais que o valor do saldo da mesada ("+ mesada + ")\n ");
+        System.out.printf("O último doce que Mateus queria custa mais que o valor do saldo da mesada (%.2f) \n ", mesada);
     }
 }

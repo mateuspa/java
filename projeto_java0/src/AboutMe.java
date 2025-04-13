@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AboutMe{
 
     public static void main (String[] args) throws Exception{
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US); // Usando local US, consequentemente . e não ,
         try {
             /* Utilizando String args para receber os argumentos. Configurar String args no launch.json para usar no Terminal.
                 String nome = args[0];

@@ -1,3 +1,5 @@
+.vscode/extensions.json
+.vscode/launch.json
 projeto_java0/.vscode/launch.json
 projeto_java0/.vscode/settings.json
 projeto_java0/bin/AboutMe.class
@@ -6,3 +8,17 @@ projeto_java0/bin/Operadores.class
 projeto_java0/bin/SmartTv.class
 projeto_java0/bin/Usuario.class
 ContaBanco/.vscode/settings.json
+ContaBanco/bin/ContaTerminal.class
+projeto_java0/bin/Condicional_Terciario.class
+projeto_java0/bin/ForEach.class
+projeto_java0/bin/ForLoop.class
+projeto_java0/bin/SwitchCase.class
+projeto_java0/bin/Condicional_Encadenado.class
+projeto_java0/bin/Condicional_Ternario.class
+projeto_java0/bin/MinhaPrimeiraClasse.class
+projeto_java0/bin/BreakContinue.class
+projeto_java0/bin/DoWhile.class
+projeto_java0/bin/While.class
+projeto_java0/bin/StackDebuging.class
+projeto_java0/bin/AverageDebugging.class
+projeto_java0/bin/CalculaMediaAlunos.class
