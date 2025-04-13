@@ -1,5 +1,5 @@
 public class Usuario {
-        public static void main (String[] args) throws Exception {
+    public static void main (String[] args) throws Exception {
         SmartTv smartTv = new SmartTv();
         System.out.println("Estado TV: "+smartTv.ligada);
         System.out.println("Canal: "+smartTv.canal);

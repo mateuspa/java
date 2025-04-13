@@ -6,10 +6,10 @@ public class AboutMe{
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         try {
             /* Utilizando String args para receber os argumentos. Configurar String args no launch.json para usar no Terminal.
-            String nome = args[0];
-            String sobrenome = args[1];
-            int idade = Integer.valueOf(args[2]);
-            double altura = Double.valueOf(args[3]);
+                String nome = args[0];
+                String sobrenome = args[1];
+                int idade = Integer.valueOf(args[2]);
+                double altura = Double.valueOf(args[3]);
             */
 
             // Usando classe Scanner para ler entrada do console com padrão de separação sendo <tecla espaço>
