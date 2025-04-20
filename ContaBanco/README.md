@@ -1,1 +1,1 @@
-Desenvolvido por Mateus Prince para entregar atividade ContaTerminal.java em treinamento Dio - Bradesco - Java Cloud Native..
+Desenvolvido por Mateus Prince para finalizar o desafio "Sintaxe" do treinamento DIO - Bradesco - Java Cloud Native..
