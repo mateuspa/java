@@ -5,7 +5,7 @@ public class ForEach {
         String filhos[] = {"mateus", "fernanda", "marcela"};
         
         for (String filho : filhos){
-        System.out.println(filho);
+            System.out.println(filho);
         }
     }
-}
+} 
