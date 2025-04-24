@@ -1,7 +1,7 @@
 package escola;
 
 public class Aluno {
-    private final String nome;
+    private final String nome; // declarando como final por conta do método construtor exigir o parâmetro nome
     private int idade;
     private String sexo;
 
@@ -9,7 +9,7 @@ public class Aluno {
         return nome;
     }
     
-    // método construtor 
+    // método construtor solicitando parâmetro nome
     public Aluno(String nome) {
         this.nome = nome;
     }
