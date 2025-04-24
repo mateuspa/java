@@ -13,8 +13,4 @@ public class Atendente {
 	public void receberPagamento() {
 		System.out.println("RECEBENDO PAGAMENTO");
 	}
-
-	private void pegarPedidoBalcao() {
-		System.out.println("PEGANDO PEDIDO BALCAO");
-	}
 }

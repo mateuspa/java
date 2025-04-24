@@ -1,7 +1,7 @@
 package escola;
 
 public class Aluno {
-    private String nome;
+    private final String nome;
     private int idade;
     private String sexo;
 

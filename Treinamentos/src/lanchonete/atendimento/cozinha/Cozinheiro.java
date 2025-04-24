@@ -1,30 +1,35 @@
 package lanchonete.atendimento.cozinha;
 
 public class Cozinheiro {
-    // pode ser default
+    // visibilidade dentro do pacote
     public void adicionarLancheNoBalcao() {
         System.out.println("ADICIONANDO LANCHE NATURAL HAMBURGUER NO BALCAO");
     }
 
-    // pode ser default
     public void adicionarSucoNoBalcao() {
         System.out.println("ADICIONANDO SUCO NO BALCAO");
     }
 
-    // pode ser default
     public void adicionarComboNoBalcao() {
         adicionarSucoNoBalcao();
         adicionarLancheNoBalcao();
     }
 
+    // visibilidade apenas dentro da classe
     private void prepararLanche() {
+        selecionarIngredientesLanche();
+        lavarIngredientes();
+        fritarIngredientesLanche();
         System.out.println("PREPARANDO LANCHE TIPO HAMBURGUER");
     }
 
     private void prepararVitamina() {
-        System.out.println("PREPARANDO SUCO");
+        selecionarIngredientesVitamina();
+        lavarIngredientes();
+        baterVitaminaLiquidificador();
+        System.out.println("PREPARANDO VITAMINA");
     }
-
+    @SuppressWarnings("unused")
     private void prepararCombo() {
         prepararLanche();
         prepararVitamina();
@@ -49,11 +54,7 @@ public class Cozinheiro {
     private void fritarIngredientesLanche() {
         System.out.println("FRITANDO A CARNE E OVO PARA O HAMBURGUER");
     }
-
-    private void pedirParaTrocarGas(Almoxarife meuAmigo) {
-        meuAmigo.trocarGas();
-    }
-
+    @SuppressWarnings("unused")
     private void pedirIngredientes(Almoxarife almoxarife) {
         almoxarife.entregarIngredientes();
     }

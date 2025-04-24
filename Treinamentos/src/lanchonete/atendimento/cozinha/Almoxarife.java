@@ -1,6 +1,7 @@
 package lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
+    @SuppressWarnings("unused")
 	private void controlarEntrada() {
 		System.out.println("CONTROLANDO ENTRADA DOS ITENS");
 	}
@@ -14,7 +15,7 @@ public class Almoxarife {
 		System.out.println("ENTREGANDO INGREDIENTES");
 		controlarSaida();
 	}
-
+	@SuppressWarnings("unused")
 	void trocarGas() {
 		System.out.println("ALMOXARIFE TROCANDO GAS");
 	}

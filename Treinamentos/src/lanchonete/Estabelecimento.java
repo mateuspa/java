@@ -7,8 +7,8 @@ import lanchonete.atendimento.cozinha.Cozinheiro;
 public class Estabelecimento {
 	public static void main(String[] args) {
 
-		Cozinheiro cozinheiro = new Cozinheiro();
 		//ações que estabelecimento precisa ter ciência
+		Cozinheiro cozinheiro = new Cozinheiro();
 		cozinheiro.adicionarSucoNoBalcao();
 		cozinheiro.adicionarLancheNoBalcao();
 		cozinheiro.adicionarComboNoBalcao();
@@ -17,11 +17,11 @@ public class Estabelecimento {
 		atendente.servindoMesa();
 		atendente.receberPagamento();
 		
-
 		Cliente cliente = new Cliente();
 		cliente.escolherLanche();
 		cliente.fazerPedido();
 		cliente.pagarConta();
+
 	}
 
 }
